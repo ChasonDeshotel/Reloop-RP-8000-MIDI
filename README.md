@@ -12,7 +12,7 @@ Proof of concept of updating the tempo on the LCD screen on the Reloop RP-8000 a
 
 * Decode the time elapsed / time remaining SysEx update messages for MK2
 
-* Decode any other SysEx messages the RP8000 is sending or receiving
+* Decode any other SysEx messages the RP-8000 is sending or receiving
 
 ## Updates
 
