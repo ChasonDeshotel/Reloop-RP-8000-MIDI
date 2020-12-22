@@ -1,6 +1,6 @@
 # Reloop-RP-8000-MIDI
 
-Proof of concept of updating the tempo on the LCD screen on the Reloop RP-8000 and Reloop RP-8000 MK2 DJ turntables
+Update the LCD screen of the Reloop RP-8000 and Reloop RP-8000 MK2 DJ turntables. Currently only tempo/BPM is supported
 
 ## Synopsis
 
@@ -13,22 +13,6 @@ rp.set_tempo(123.4)
 # MK1 only - switch the display to BPM
 rp.tempo_mode()
 ```
-
-## Goals
-
-* Further reverse engieer the RP-8000. How much control is available through MIDI SysEx? How much control is possible through firmware?
-
-* Extract individual deck tempo from Traktor
-
-* Create a full mapping interface into Mixxx
-
-* Decode the time elapsed / time remaining SysEx update messages for MK2
-
-* Decode any other SysEx messages the RP-8000 is sending or receiving
-
-## Updates
-
-MIDI/SysEx updates will be pushed here. I'll also have a RP-8000 page on the Mixxx hardware wiki detailing my findings
 
 ## MK1 vs MK2
 
