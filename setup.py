@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="Reloop-RP-8000-MIDI-cdeshotel"
+    name="Reloop-RP-8000-MIDI"
     , version="0.0.1"
     , author="Chason Deshotel"
     , author_email="me@chasondeshotel.com"
