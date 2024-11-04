@@ -26,5 +26,5 @@ You must send a startup sequence to the turntable before you are able to select 
 
 ## Acknowledgements
 
-Shouts to Bavi_H for [helping](https://reverseengineering.stackexchange.com/questions/25162/construct-a-number-from-0-999-9-using-5-data-bytes-of-a-midi-sysex-message) with the bitwise maths!
+Shouts to [Robert Hart](https://rnhart.net/) for [helping](https://reverseengineering.stackexchange.com/questions/25162/construct-a-number-from-0-999-9-using-5-data-bytes-of-a-midi-sysex-message) with the bitwise maths!
 
