@@ -1,5 +1,6 @@
 import time
 import rtmidi
+import re
 
 class SysEx:
 
@@ -17,7 +18,7 @@ class SysEx:
 		""" enumerate all midi devices, rtmidi doesn't have a call by name method """
 		for port, name in enumerate(self.midiout.get_ports()):
 			print(port, name)
-			if name == self.model:
+			if re.search(self.model,name):
 				return port
 		else:
 			assert False, "No MIDI port found for %s" % self.model

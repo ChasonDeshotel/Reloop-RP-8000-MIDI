@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Reloop-RP-8000-MIDI"
-    , version="0.0.1"
+    , version="1.1"
     , author="Chason Deshotel"
     , author_email="me@chasondeshotel.com"
     , description="Reloop RP-8000 MIDI interface"
