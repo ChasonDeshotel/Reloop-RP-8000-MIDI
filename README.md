@@ -1,6 +1,6 @@
 # Reloop-RP-8000-MIDI
 
-Update the LCD screen of the Reloop RP-8000 and Reloop RP-8000 MK2 DJ turntables. Currently only tempo/BPM is supported
+Update the LCD screen of the Reloop RP-8000 and Reloop RP-8000 MK2 DJ turntables.
 
 ## Synopsis
 
@@ -14,6 +14,14 @@ rp.set_tempo(123.4)
 rp.tempo_mode()
 ```
 
+## Install from PyPI
+
+```
+pip install Reloop-RP-8000-MIDI
+```
+
+Release page: https://pypi.org/project/Reloop-RP-8000-MIDI
+
 ## MK1 vs MK2
 
 ### RP-8000 MK1
@@ -24,7 +32,10 @@ You must send a tempo to the turntable before you are able to select "bpm" mode 
 
 You must send a startup sequence to the turntable before you are able to select "bpm" mode for the display. This happens automatically at object instantiation when the model is set to "RP8000mk2"
 
+## Limitations
+
+Currently only tempo/BPM is supported.
+
 ## Acknowledgements
 
 Shouts to [Robert Hart](https://rnhart.net/) for [helping](https://reverseengineering.stackexchange.com/questions/25162/construct-a-number-from-0-999-9-using-5-data-bytes-of-a-midi-sysex-message) with the bitwise maths!
-
